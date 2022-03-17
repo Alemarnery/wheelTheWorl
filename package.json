@@ -1,11 +1,12 @@
 {
     "scripts": {
-        "test": "nodemon index.js"
-      },
-  "dependencies": {
-    "node-modules": "^1.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+        "start": "nodemon index.ts"
+    },
+    "dependencies": {
+        "node-modules": "^1.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "ts-node": "^10.7.0"
+    }
 }
